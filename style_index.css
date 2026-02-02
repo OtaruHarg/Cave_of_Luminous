@@ -12,19 +12,19 @@ body{
 
 h1{
     background-color: green;
-    opacity: 0.8;
+    opacity: 0.9;
     text-align: center;
 }
 
 h2{
-    background-color: green;
-    opacity: 0.8;
+    background-color: grey;
+    opacity: 0.9;
     text-align: center;
 }
 
 .card{
     background-color: grey;
-    opacity: 0.8;
+    opacity: 0.9;
     width: 30vw;
     height: 30vw;
     margin: 1.5vw;
