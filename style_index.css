@@ -10,7 +10,17 @@ body{
     justify-content: center;
 }
 
+h1{
+    background-color: green;
+    opacity: 0.5;
+    text-align: center;
+}
 
+h2{
+    background-color: green;
+    opacity: 0.5;
+    text-align: center;
+}
 
 .card{
     background-color: grey;
