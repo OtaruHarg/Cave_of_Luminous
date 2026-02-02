@@ -1,5 +1,7 @@
 body{
     background-color: #d2b48c
+    background-image: "background_index.png";
+    background-size: cover;
 }
 
 .field{
