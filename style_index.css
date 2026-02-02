@@ -1,6 +1,6 @@
 body{
     background-color: #d2b48c
-    background-image: "background_index.jpg";
+    background-image: url(background_index.jpg);
     background-size: cover;
     opacity: 0.8;
 }
