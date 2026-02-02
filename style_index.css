@@ -1,0 +1,32 @@
+body{
+    background-color: #d2b48c
+}
+
+.field{
+    display: flex;
+    justify-content: center;
+}
+
+
+.card{
+    background-color: grey;
+    opacity: 0.8;
+    width: 30vw;
+    height: 30vw;
+    margin: 1.5vw;
+    font-size: 15vw;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.part{
+    background-color: darkgrey;
+    color: darkgrey;
+    opacity: 0.8;
+    width: 30vw;
+    height: 30vw;
+    margin: 1.5vw;
+    font-size: 15vw;
+    text-align: center;
+    border-radius: 50%;
+}
