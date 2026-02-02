@@ -3,7 +3,7 @@ var true_pass = 0;
 var pl_pass;
 
 window.onload = load();
-/*
+
 function load(){
   test = window.localStorage.getItem("pl_pass");
   if(!test){
@@ -12,7 +12,7 @@ function load(){
     pl_pass = test;
   }
 }
-*/
+
 function press(x){
     true_pass = 0;
     pass = pass * 10;
