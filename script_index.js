@@ -43,6 +43,7 @@ function press_S(){
       var result = window.confirm("パスワードをリセットしますか？");
       if(result){
         window.localStorage.clear();
+        window.location.reload();
       }
     }
 }
