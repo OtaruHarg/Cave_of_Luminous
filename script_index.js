@@ -53,8 +53,9 @@ function press_S(){
 function press_E(){
   if(pl_pass==pass){
     window.location.href="main.html";
+    document.querySelector("#passes").textContent = "SUCCESS";
   }else{
-    document.querySelector("#passes").textContent = "ERROR";
+    document.querySelector("#passes").textContent = "ERROR PASS";
     pass = 0;
     true_pass = 0;
   }
