@@ -51,9 +51,13 @@ function press_S(){
 }
 
 function press_E(){
+  if(pl_pass==pass){
+    window.location.href="main.html";
+  }else{
     document.querySelector("#passes").textContent = "ERROR";
     pass = 0;
     true_pass = 0;
+  }
 }
 
 
