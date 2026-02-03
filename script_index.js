@@ -1,13 +1,16 @@
 var pass = 0;
 var true_pass = 0;
 var pl_pass;
+var test;
+var x;
 
 window.onload = load();
 
 function load(){
   test = window.localStorage.getItem("pl_pass");
   if(!test){
-    window.location.href = "passset.html";
+    passset();
+    window.location.reload();
   }else{
     pl_pass = test;
   }
@@ -52,4 +55,18 @@ function press_E(){
     document.querySelector("#passes").textContent = "ERROR";
     pass = 0;
     true_pass = 0;
+}
+
+
+dunction passet(){
+    x = 1;
+  while(x == 1){
+    test = Number(window.prompt("5桁のパスワードを入力してください。"));
+    if(test < 100000 & test >= 10000){
+      x = 2;
+      key = "pl_pass";
+      val = test;
+      window.localStorage.setItem(key,val);
+    }
+  }
 }
