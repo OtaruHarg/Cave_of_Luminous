@@ -39,10 +39,11 @@ function passcheck(){
 
 function press_S(){
     true_pass = true_pass + 1;
-    if(true_pass > 4){
-        document.querySelector("#moji").textContent = "パスワード認証";
-        document.querySelector("#passes").textContent = "SUCCES";
-        window.location.href = "main.html";
+    if(true_pass >= 10){
+      var result = window.confirm("パスワードをリセットしますか？");
+      if(result){
+        window.localStorage.clear();
+      }
     }
 }
 
