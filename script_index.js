@@ -57,7 +57,7 @@ function press_E(){
 }
 
 
-dunction passet(){
+dunction passset(){
   x = 1;
   while(x == 1){
     test = Number(window.prompt("5桁のパスワードを入力してください。"));
