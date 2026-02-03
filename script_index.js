@@ -10,7 +10,6 @@ function load(){
   test = window.localStorage.getItem("pl_pass");
   if(!test){
     passset();
-    window.location.reload();
   }else{
     pl_pass = test;
   }
@@ -59,7 +58,7 @@ function press_E(){
 
 
 dunction passet(){
-    x = 1;
+  x = 1;
   while(x == 1){
     test = Number(window.prompt("5桁のパスワードを入力してください。"));
     if(test < 100000 & test >= 10000){
@@ -69,4 +68,5 @@ dunction passet(){
       window.localStorage.setItem(key,val);
     }
   }
+  window.location.reload();
 }
