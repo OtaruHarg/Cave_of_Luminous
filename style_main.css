@@ -19,6 +19,7 @@ body{
   align-items: center;
   hright: 10vh;
   width: 60vw;
+  padding: 1vh 5vw 1vh 5vw;
 }
 
 .last_login_b{
@@ -27,10 +28,11 @@ body{
   background-color: grey;
   width: 10vw;
   height: 10vh;
+  text-align: center;
 }
 
 .pl_name{
-  font-size: 12.5vw;
+  font-size: 100vw;
 }
 
 .last_login{
