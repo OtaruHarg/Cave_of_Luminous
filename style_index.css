@@ -2,7 +2,7 @@ body{
     background-color: #d2b48c
     opacity: 0.8;
     background-image: url(background_index.PNG);
-    background-size: cover;
+    background-size: contain;
 }
 
 .field{
