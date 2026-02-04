@@ -47,5 +47,8 @@ body{
 }
 
 .check_button{
+  background-color: #FFFFFF;
+  height: 10vh;
+  width: 10vh;
   border-radius: 50%;
 }
