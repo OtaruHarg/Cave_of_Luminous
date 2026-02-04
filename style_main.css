@@ -1,0 +1,12 @@
+body{
+  background-image: url(background_main.png);
+  height: 90vh;
+}
+
+.PL_data{
+  display: flex;
+  justify-content: center;
+  height: 15vh;
+  background-color: grey;
+  text-align: center;
+}
