@@ -8,7 +8,7 @@ body{
 .PL_data{
   display: flex;
   justify-content: center;
-  height: 15vh;
+  height: 10vh;
   background-color: grey;
   text-align: center;
 }
