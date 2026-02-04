@@ -1,4 +1,10 @@
+var test,key,pl_name,login_year
+  ,login_month,login_day,last_login_year
+  ,last_login_month,last_login_day;
+
 window.onload = load();
+
+
 
 function load(){
   key = "pl_name";
