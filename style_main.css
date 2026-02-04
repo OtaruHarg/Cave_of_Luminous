@@ -1,6 +1,7 @@
 body{
   background-image: url(background_main.png);
-  background-size: contain;
+  background-size:cover;
+  background-repeat: no-repeat;
   height: 90vh;
 }
 
