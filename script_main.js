@@ -47,6 +47,7 @@ function new_login(){
     loops = loops + 1;
     check_eria[loops] = "yet";
   }
+  document.querySelector("#last_login").textContent = last_login_year+"/"+last_login_month+"/"+last_login_day;
 }
 
 function load(){
@@ -74,5 +75,4 @@ function load(){
       }
     }
   }
-  document.querySelector("#last_login").textContent = last_login_year+"/"+last_login_month+"/"+last_login_day;
 }
