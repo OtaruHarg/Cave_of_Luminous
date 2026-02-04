@@ -8,5 +8,9 @@ function load(){
   }else{
     pl_name = test;
   }
-  
+  login_year = date.getFullYear();
+  login_month = date.getMonth();
+  login_day = date.getDate();
 }
+
+
