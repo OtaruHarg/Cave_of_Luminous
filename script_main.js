@@ -1,7 +1,9 @@
 var test,key,pl_name,login_year
-  ,login_month,login_day,last_login_year
-  ,last_login_month,last_login_day,today;
+  ,login_month,login_day;
 
+var last_login_year = 0;
+var last_login_month = 0;
+var last_login_day = 0;
 window.onload = load();
 
 
@@ -15,8 +17,8 @@ function load(){
   }else{
     pl_name = test;
   }
-  today = new Date;
   document.querySelector("#pl_name").textContent = test;
+  var today = new Date;
   login_year = today.getFullYear();
   login_month = today.getMonth();
   login_day = today.getDate();
@@ -39,5 +41,3 @@ function load(){
   }
   document.querySelector("#last_login").textContent = last_login_year+"/"+last_login_month+"/"+last_login_day;
 }
-
-
