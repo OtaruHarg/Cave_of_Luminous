@@ -9,7 +9,7 @@ window.onload = load();
 function load(){
   key = "pl_name";
   test = "test";
-  test = window.localStorage.getItem(key);
+  //test = window.localStorage.getItem(key);
   if(!test){
     window.location.href = "tutorial.html";
   }else{
