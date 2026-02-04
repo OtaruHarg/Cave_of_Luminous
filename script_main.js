@@ -1,6 +1,6 @@
 var test,key,pl_name,login_year
   ,login_month,login_day,last_login_year
-  ,last_login_month,last_login_day;
+  ,last_login_month,last_login_day,today;
 
 window.onload = load();
 
@@ -15,6 +15,7 @@ function load(){
   }else{
     pl_name = test;
   }
+  today = new Date;
   document.querySelector("#pl_name").textContent = test;
   login_year = today.getFullYear();
   login_month = today.getMonth();
