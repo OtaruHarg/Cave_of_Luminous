@@ -12,7 +12,18 @@ body{
   text-align: center;
 }
 
-.last_login{
+.name{
   background-color: grey;
+  align-item: center;
+  hright: 10vh;
+  width: 80vw;
+  font-size: 10vw;
+}
+
+.last_login{
+  align-item: center;
+  background-color: grey;
+  width: 10vw;
   height: 10vh;
+  font-size: 1vw;
 }
