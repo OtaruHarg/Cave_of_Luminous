@@ -13,6 +13,7 @@ body{
 }
 
 .name{
+  line-height: 1;
   background-color: grey;
   align-items: center;
   hright: 10vh;
