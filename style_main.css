@@ -14,14 +14,14 @@ body{
 
 .name{
   background-color: grey;
-  align-item: center;
+  align-items: center;
   hright: 10vh;
   width: 80vw;
   font-size: 10vw;
 }
 
 .last_login{
-  align-item: center;
+  align-items: center;
   background-color: grey;
   width: 10vw;
   height: 10vh;
