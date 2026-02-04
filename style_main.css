@@ -17,6 +17,7 @@ body{
   background-color: grey;
   display: flex;
   align-items: center;
+  text-align: center;
   height: 10vh;
   width: 60vw;
   padding: 1vh 5vw 1vh 5vw;
