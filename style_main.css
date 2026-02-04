@@ -17,10 +17,10 @@ body{
   background-color: grey;
   display: flex;
   align-items: center;
-  text-align: center;
   height: 10vh;
   width: 60vw;
   padding: 1vh 5vw 1vh 5vw;
+  justify-content: center;
 }
 
 .last_login_b{
@@ -30,7 +30,7 @@ body{
   width: 20vw;
   height: 10vh;
   padding: 1vh 1vw 1vh 1vh;
-  text-align: center;
+  justify-content: center;
 }
 
 .pl_name{
