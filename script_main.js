@@ -13,7 +13,22 @@ function load(){
   login_day = date.getDate();
   if(login_year > last_login_year){
     last_login_year = login_year;
+    last_login_month = login_month;
+    last_login_day = login_day;
+  }else if(login_year == last_login_year){
+    if(login_month > last_login_month){
+        last_login_year = login_year;
+        last_login_month = login_month;
+        last_login_day = login_day;
+    }else if(login_month == last_login_month){
+      if(login_day > last_login_day){
+        last_login_year = login_year;
+        last_login_month = login_month;
+        last_login_day = login_day;
+      }
+    }
   }
+  document.querySelector("#last_login").textContent = last_login_year+"/"+last_login_month+"/"+last_login_day;
 }
 
 
