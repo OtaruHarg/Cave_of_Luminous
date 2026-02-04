@@ -12,19 +12,27 @@ body{
   text-align: center;
 }
 
-.name{
+.name_b{
   line-height: 1;
   background-color: grey;
-  align-items: center;
+  display: flex;
   hright: 10vh;
   width: 80vw;
-  font-size: 10vw;
 }
 
-.last_login{
-  align-items: center;
+.last_login_b{
+  display: flex;
   background-color: grey;
   width: 10vw;
   height: 10vh;
+}
+
+.name{
+  font-size: 10vw;
+  align-items: center;
+}
+
+.last_login{
   font-size: 1vw;
+  align-items: center;
 }
