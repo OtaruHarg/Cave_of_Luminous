@@ -1,8 +1,8 @@
 body{
     background-color: #d2b48c
-    background-size: cover;
     opacity: 0.8;
     background-image: url(background_index.PNG);
+    background-size: cover;
 }
 
 .field{
