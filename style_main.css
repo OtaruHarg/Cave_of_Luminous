@@ -46,3 +46,6 @@ body{
   justify-content: center;
 }
 
+.check_button{
+  border-radius: 50%;
+}
