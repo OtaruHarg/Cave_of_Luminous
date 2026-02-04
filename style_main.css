@@ -16,23 +16,23 @@ body{
   line-height: 1;
   background-color: grey;
   display: flex;
+  align-items: center;
   hright: 10vh;
-  width: 80vw;
+  width: 60vw;
 }
 
 .last_login_b{
   display: flex;
+  align-items: center;
   background-color: grey;
   width: 10vw;
   height: 10vh;
 }
 
 .pl_name{
-  font-size: 10vw;
-  align-items: center;
+  font-size: 12.5vw;
 }
 
 .last_login{
-  font-size: 1vw;
-  align-items: center;
+  font-size: 10vw;
 }
