@@ -11,6 +11,9 @@ function load(){
   login_year = date.getFullYear();
   login_month = date.getMonth();
   login_day = date.getDate();
+  if(login_year > last_login_year){
+    last_login_year = login_year;
+  }
 }
 
 
