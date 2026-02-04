@@ -16,9 +16,9 @@ function load(){
     pl_name = test;
   }
   document.querySelector("#pl_name").textContent = test;
-  login_year = date.getFullYear();
-  login_month = date.getMonth();
-  login_day = date.getDate();
+  login_year = today.getFullYear();
+  login_month = today.getMonth();
+  login_day = today.getDate();
   if(login_year > last_login_year){
     last_login_year = login_year;
     last_login_month = login_month;
